@@ -1,0 +1,2 @@
+# Stockfish 18 binary representation placeholder for ARM-v8a devices.
+# Put your native Stockfish binary here for compilation when building on local Android Studio.
