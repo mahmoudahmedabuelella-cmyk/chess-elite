@@ -11,14 +11,7 @@ buildscript {
     }
 }
 
-allprojects {
-    repositories {
-        google()
-        mavenCentral()
-        // Required for com.github.bhlangonijr:chesslib dependency
-        maven { url 'https://jitpack.io' }
-    }
-}
+// تم حذف جزء allprojects لمنع التعارض مع إعدادات settings.gradle الحديثة
 
 task clean(type: Delete) {
     delete rootProject.buildDir
